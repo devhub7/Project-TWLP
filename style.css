@@ -1,0 +1,572 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+::selection {
+  color: #fff;
+  background: #333;
+}
+fieldset {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
+  background: url(assets/img/lilypads.png) repeat fixed 0 0 #ddd;
+}
+.template {
+  width: 960px;
+  margin: 0 auto;
+}
+.clear {
+  overflow: hidden;
+}
+.headersection {
+  color: #fff;
+  background: rgb(199, 137, 39);
+  overflow: hidden;
+}
+.logo img {
+  width: 75px;
+  padding: 5px;
+  float: left;
+  margin-right: 15px;
+}
+
+.social img {
+  width: 32px;
+  padding-top: 25px;
+  margin-right: 15px;
+}
+.logo {
+  width: 500px;
+  float: left;
+}
+
+.social {
+  float: right;
+  width: 200px;
+}
+.social_icon {
+  float: right;
+  margin-top: 18px;
+  margin-right: 10px;
+}
+.social_icon a {
+  font-size: 18px;
+  line-height: 45px;
+  background: #fff;
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+
+.social_icon a > i {
+  color: rgb(199, 137, 39);
+}
+.social_icon a:hover i {
+  transition: all ease 0.3s;
+  color: #fff;
+}
+.social_icon a:hover {
+  transition: all ease 0.3s;
+  background: #333;
+}
+.logo h3 {
+  font-size: 26px;
+  padding-top: 15px;
+  margin-bottom: 5px;
+  line-height: 30px;
+  text-shadow: 1px 2px 3px #333;
+}
+
+.logo p {
+  font-size: 16px;
+  color: #333;
+}
+.navsection.template {
+  background: rgb(215, 155, 35);
+}
+
+/*.navsection.template p {
+    font-size: 20px;
+    color: #fff;
+    box-sizing: border-box;
+    font-weight: bold;
+    padding: 5px 0;
+    padding-left: 30px;
+}*/
+.navsection ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+.navsection ul li {
+  float: left;
+  display: block;
+}
+.navsection ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 5px;
+  background: rgb(199, 137, 39);
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+  border: 1px solid #c78952;
+}
+.navsection ul li a:hover,
+#active {
+  background: #333;
+  color: #fff;
+  transition: all ease 0.3s;
+}
+#active {
+  background: #333 !important;
+  color: #fff;
+}
+.slider_section {
+  overflow: hidden;
+  margin-bottom: 10px;
+  box-shadow: 0px 10px 9px -3px #333;
+}
+h3.notfound {
+  color: rgb(215, 155, 35);
+  text-align: center;
+  font-size: 26px;
+  line-height: 1.2;
+  margin-top: 15px;
+}
+.contentsection {
+  background: #fff;
+}
+.maincontent {
+  width: 625px;
+  background: rgb(258, 208, 157);
+  float: left;
+  padding: 15px;
+  margin-left: 0;
+  overflow: hidden;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid rgba(199, 137, 39, 0.5);
+}
+fieldset p {
+  font-size: 16px;
+  line-height: 1.2;
+  color: #333;
+}
+legend {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: 1px solid rgb(201, 125, 39);
+  transition: all ease 0.5s;
+}
+input[type="submit"] {
+  background: rgb(199, 137, 39);
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 17px;
+  font-weight: normal;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.sidebar {
+  width: 255px;
+  background: rgb(258, 208, 157);
+  float: right;
+  padding: 15px;
+  margin-right: 0;
+}
+.sidebar p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.samesidebar h2 {
+  padding: 10px;
+  background: rgb(215, 155, 35);
+  color: #333;
+  border-bottom: 2px solid rgb(199, 137, 39);
+  margin-bottom: 8px;
+}
+.samesidebar img {
+  width: 150px;
+  background: #fff;
+  padding: 3px;
+  border: 1px solid rgb(215, 155, 35);
+  margin-right: 7px;
+  float: left;
+  border-radius: 5px;
+}
+.samesidebar h3 {
+  margin-bottom: 10px;
+  border-bottom: 1px dashed rgb(199, 137, 39);
+  padding: 0px 0px 3px 0px;
+}
+.samesidebar a {
+  text-decoration: none;
+  color: rgb(201, 125, 39);
+}
+ul.latestArticle {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.latestArticle li {
+  padding-bottom: 4px;
+  border-bottom: 2px dotted rgb(215, 155, 35);
+  margin-bottom: 8px;
+}
+
+ul.latestArticle li a {
+  text-decoration: none;
+  color: rgb(201, 125, 39);
+}
+
+ul.latestArticle li:last-child {
+  border: none;
+}
+
+.samecontent {
+  overflow: hidden;
+}
+.samecontent h4,
+.about h4,
+.contact h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(201, 125, 39);
+  padding-bottom: 10px;
+  color: rgb(201, 125, 39);
+}
+.samecontent p {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #333;
+}
+.samecontent img,
+.about img {
+  width: 200px;
+  background: #fff;
+  padding: 5px;
+  border: 1px solid rgb(247, 185, 33);
+  float: left;
+  margin-right: 10px;
+}
+.about img {
+  width: 350px;
+  cursor: pointer;
+}
+.about:hover img {
+  transition: all ease 0.5s;
+  transform: rotate(360deg);
+}
+.about p {
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  font-family: gabrioala;
+  margin-bottom: 15px;
+}
+a.readmore {
+  float: right;
+  background: #fff;
+  padding: 8px;
+  text-decoration: none;
+  color: rgb(199, 137, 39) !important;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 9px;
+}
+a.readmore:hover {
+  color: dodgerblue;
+  background: aliceblue;
+  transition: all ease 0.3s;
+}
+h4.relatedAricle {
+  background: rgb(215, 155, 35);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  text-shadow: 1px 2px 2px #333;
+  border-bottom: 1px solid rgb(193, 131, 6);
+  margin-top: 10px;
+}
+img.blogImg {
+  margin-bottom: 10px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px 1px #333 inset;
+  height: 100px;
+  width: 186px;
+  margin-right: 10px;
+}
+img.blogImg:hover {
+  opacity: 0.5;
+  transition: all ease 0.3s;
+}
+.footermenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.footermenu ul li {
+  display: inline-block;
+}
+
+.footermenu ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 5px;
+  color: rgb(199, 137, 39);
+  font-size: 18px;
+}
+
+.footersection p {
+  background: rgb(258, 208, 157);
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 0;
+  line-height: 18px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+.footermenu ul li a:hover {
+  text-decoration: underline;
+  color: #333;
+  transition: all ease 0.3s;
+}
+.fixed img {
+  width: 40px;
+  margin-bottom: 15px;
+}
+
+.fixed {
+  position: fixed;
+  width: 60px;
+  right: 0;
+  top: 30%;
+}
+div#topcontrol img {
+  width: 80px;
+  margin-right: 50px;
+}
+img#frameimg {
+  margin-left: 33px;
+  margin-top: 5px;
+  margin-bottom: -20px;
+}
+div#contenttemplate {
+  border: 1px solid rgb(199, 137, 39);
+  padding: 8px;
+  width: 942px;
+}
+div#postmaincontent {
+  border: 1px solid rgba(201, 125, 39, 0.55);
+  margin-right: 10px;
+}
+
+div#postsidebar {
+  border: 1px solid rgba(201, 125, 39, 0.55);
+  width: 243px;
+}
+div#blogmenu.navsection ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+div#blogmenu.navsection ul li {
+  display: inline-block;
+}
+div#blogmenu.navsection ul li a {
+  display: block;
+  background: transparent;
+  margin: 0;
+  border: none;
+  border-right: 1px solid #c78952;
+}
+div#blogmenu.navsection ul li a:hover {
+  background: #333;
+  color: #fff;
+  transition: all ease 0.3s;
+}
+/*Drop Down Menu style*/
+.dropmenu.template {
+  min-height: 48px; /*overflow: hidden; here overflow omitted for dropdown menu*/
+  background: #258765;
+}
+
+.dropmenu.template ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.dropmenu.template ul li {
+  float: left;
+  border-left: 1px solid #34b98b;
+  border-right: 1px solid #1b5d46;
+}
+
+.dropmenu.template ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-size: 1rem;
+}
+
+.dropmenu.template ul li:first-child,
+.dropmenu.template ul li:last-child {
+  border: 0px solid;
+}
+
+.dropmenu.template ul li a:hover {
+  background: #1b5d46;
+}
+/*Dropdown CSS*/
+.dropmenu.template ul li {
+  position: relative;
+}
+.dropmenu.template ul li ul {
+  position: absolute;
+  left: -9999px; /*display: none; for test case*/
+  background: #fff;
+}
+.dropmenu.template ul li:hover ul {
+  left: 0px; /*display:block; for test case*/
+}
+.dropmenu.template ul li ul li {
+  float: none;
+  width: 150px;
+  border: 0px solid transparent;
+  border-bottom: 1px solid #37c594 !important;
+}
+.dropmenu.template ul li ul li a {
+  background: #57d8ab;
+  color: #fff;
+  padding: 10px 15px;
+}
+.maincontent a#special {
+  font-size: 80px;
+  width: 200px;
+  padding: 5px;
+  display: inherit;
+  text-align: center;
+  background: #fff;
+  color: red;
+  border-radius: 50%;
+  margin: 50px auto;
+  height: 200px;
+  line-height: 200px;
+  cursor: pointer;
+  border: 1px solid rgb(215, 155, 35);
+}
+.maincontent a#special:hover {
+  transition: all ease 0.3s;
+  background: #333;
+  color: #fff;
+}
+img.hovimg {
+  width: 100%;
+}
+.hovereffect {
+  width: 625px;
+  height: 357px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.hovereffect:hover .hover {
+  top: 0;
+}
+.hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(51, 51, 51, 0.5);
+  top: -100%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.hover .outer_text {
+  background: transparent;
+  width: 520px;
+  height: 85px;
+  margin: auto;
+  text-align: center;
+  font-size: 2em;
+  color: #cc0000;
+  line-height: 1.2;
+  background: #fff;
+}
+.outer_text h3 {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.outer_text p {
+  margin-bottom: 10px;
+}
+img.hovimg {
+  width: 625px;
+  height: 357px;
+}
+.samecontent img {
+  cursor: pointer;
+}
+.rotatephoto:hover img {
+  transition: all ease 0.5s;
+  transform: rotate(360deg);
+}
+.scalephoto:hover img {
+  transition: all ease 0.5s;
+  transform: scale(1.5);
+}
+.skewphoto:hover img {
+  transition: all ease 0.5s;
+  transform: skew(30deg);
+}
+.translateXphoto:hover img {
+  transition: all ease 1s;
+  transform: translateX(150px);
+}
+.translatYephoto:hover img {
+  transition: all ease 1s;
+  transform: translateY(100px);
+}
